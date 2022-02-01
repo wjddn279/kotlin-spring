@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/api")
 class PutApiController {
 
+    // @PutMapping
+
     @PutMapping("/put-mapping")
     fun putMapping(): String {
         return "request-mapping"

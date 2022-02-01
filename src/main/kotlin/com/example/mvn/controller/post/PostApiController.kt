@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/api")
 class PostApiController {
 
+    // @PostMapping
+    // @RequestBody Request body 부분 parsing
+    // @JsonProperty : json naming
+    // @JsonNaming: class json naming
+
     @PostMapping("/post-mapping")
     fun postMapping(): String{
         return "post-mapping"

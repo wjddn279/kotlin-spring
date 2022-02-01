@@ -8,6 +8,15 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/api") // :8080/api 로 매핑
 class GetApiController {
 
+
+    // @RequestController : Rest APi 를 설정
+    // @RequestMapping : 리소스를 설정 (method로 구분 가능)
+
+    // @GetMapping Get Resource 설정
+    // @RequestParam: URL query param Parsing
+    // @PathVariable: URL Path variable Parsing
+    // Object: Query Param Object 로 parsing
+
     @GetMapping(path = ["/hello", "/abcd"])
     // :8080/api/hello, :8080/api/abcd 로 get mapping
     fun hello(): String {

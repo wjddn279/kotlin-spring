@@ -1,6 +1,6 @@
 package com.example.mvn.controller.get
 
-import com.example.mvn.controller.model.http.UserRequest
+import com.example.mvn.model.http.UserRequest
 import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util.println
 import org.springframework.web.bind.annotation.*
 

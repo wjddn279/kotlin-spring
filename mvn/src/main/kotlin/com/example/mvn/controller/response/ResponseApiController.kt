@@ -1,6 +1,6 @@
 package com.example.mvn.controller.response
 
-import com.example.mvn.controller.model.http.UserRequest
+import com.example.mvn.model.http.UserRequest
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
